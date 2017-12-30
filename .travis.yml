@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: ZSoj6T+OkE2isSok13JqVDPRXoGRXi1j65uZimzWMHkIaOEpEJaxbXJk1fV+EDphuV+qh2AUjrNoDIkiS/IMKNJehNqHvgjmlumV7zzUg2ZwYcgjB2BQel8vZu/lKW7sVe/Q0ypqizEXGrmqedGTd0e1Q9Cpqa/SIISHLy1hwmHFDiKiFD8o8uFvMk+tVcf5zM38Yd61QLMPDKWwXC2SfXmux885Kvra7Uag0k7KctQTOiCYUMo7wtD2pBQz4aPPRyBz7umpHW7ZwvgdHTzFweRUD6u4cDaYuOirB6mxNJPo6MP2qusL52QeuR04sqE4UTyLifjollob8RTidWk4LPQAdFMfWhzGGOO+LIOjK8JoXhqUVTsOfMCgdJITAgloqH4K9yOivBMie1+0yx9kOzT5TxOqcHayM0saetuGmlc0wd2d2ui+m2mfMZwnRmu3By9QAPzg2Ti+zCAtFbu0V9jUlKOHwBhEgW2nAihOvjVIJwx5xC7SXkGUtXISSxaxrwlI6/gt7X7p1MFpT5dqxZeYShrtEbRjhzVAwakE53CGh3VuNsYEfGjLz2SwvdLbmxh8Y/OlLQE02+kGGA9Azkay7YbhXgShPyJP3rpH9Xs6KF+Ql7P4h1YdnPOn4YO39i6RNqgEpAuN+RAb5tgCVpd/6i/zwq2dU9XLeF4ijnk=
+    app: node-shopping-list-integration-tests (morning-basin-23377)
+  on:
+    repo: bgerardi20/node-shopping-list-integration-tests
